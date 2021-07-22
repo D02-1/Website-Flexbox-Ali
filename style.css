@@ -1,0 +1,179 @@
+header {
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    color: cornsilk;
+    margin: 5px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav a {
+    font-size: 25px;
+    text-decoration: none;
+    color: cornsilk;
+    padding: 5px;
+    margin: 3px;
+}
+
+.text-list {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(199, 155, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-list h2 {
+    color: rgb(138, 30, 30);
+}
+
+.text-list a {
+    font-size: 20px;
+    padding: 8px;
+    text-decoration: none;
+    color: honeydew;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 100%;
+    height: 550px;
+}
+
+.img {
+    width: 100%;
+    height: 500px;
+}
+
+span {
+    color: darkcyan;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    width: 100%;
+    height: 201px;
+    display: inline-block;
+    margin-top: 100px;
+    display: flex;
+}
+
+.r-box {
+    background: cornflowerblue;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.r-box .fab {
+    font-size: 40px;
+    padding: 15px;
+}
+
+.l-box {
+    width: 50%;
+    height: 200px;
+    background: rgb(19, 18, 15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.l-box .far {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.l-box ul li {
+    list-style: none;
+    color: cornsilk;
+    font-size: 20px;
+}
+
+.l-box ul a {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .nav {
+        display: flex;
+        flex-direction: row;
+    }
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .card {
+        width: 45%;
+        margin: 10px;
+    }
+    .card-3 {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .nav {
+        display: flex;
+        flex-direction: row;
+    }
+    .container {
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .card {
+        width: 250px;
+        margin: 10px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .nav {
+        display: flex;
+        flex-direction: row;
+    }
+    .container {
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .card {
+        width: 400px;
+        margin: 10px;
+    }
+}
